@@ -1,0 +1,16 @@
+.img-container {
+	width: 100%;
+	max-width: 950px;
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+.album-photo {
+	max-width: 100px;
+	transition: all 0.2s ease;
+}
+
+.album-photo:hover {
+	max-width: 100px;
+	transform: scale(1.15);
+}

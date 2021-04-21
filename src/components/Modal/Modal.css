@@ -1,0 +1,36 @@
+.backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 5;
+	background: rgba(0, 0, 0, 0.75);
+}
+
+.slick-slider {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.slick-track {
+	transform: translate3d(-1563px, 0px, 0px);
+}
+
+.carousel-photo {
+	display: block;
+	margin: 0 auto;
+	max-width: 450px;
+}
+
+.carousel-title {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 25px;
+	/* margin-bottom: 10px; */
+}
+
+.slick-slide div div {
+	outline: none !important;
+}
